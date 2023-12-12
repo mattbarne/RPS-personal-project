@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college rps</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="round-results">
+        <div class="player-wins">
+            <h3>Player wins: </h3>
+            <h3 id="player-results"></h3>
+        </div>
+        <div class="computer-wins">
+            <h3>Computer wins: </h3>
+            <h3 id="computer-results"></h3>
+        </div>
+        <div class="ties">
+            <h3>Ties: </h3>
+            <h3 id="tie-results"></h3>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="rock-button" onmousedown="sendMoveToJs(1)">Rock</button>
+        <button id="paper-button" onmousedown="sendMoveToJs(2)">Paper</button>
+        <button id="scissors-button" onmousedown="sendMoveToJs(3)">Scissors</button>
+    </div>
+
+    <div class="round-plays">
+        <div class="player-move-text">
+            <h3>Player move: </h3>
+            <h3 id="player-move"></h3>
+        </div>
+        <div class="computer-move-text">
+            <h3>Computer move: </h3>
+            <h3 id="computer-move"></h3>
+        </div>
+        <h3 id="win-results"></h3>
+    </div>
+</body>
+</html>

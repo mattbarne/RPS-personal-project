@@ -1,0 +1,77 @@
+body, html {
+    background-color: sandybrown;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.round-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 60px;
+    padding-top: 80px;
+    animation: slideInUp;
+    animation-duration: 3s;
+}
+
+h3 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 7em;
+    animation: slideInUp;
+    animation-duration: 3s;
+}
+
+#rock-button {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: wheat;
+    color: black;
+}
+
+#paper-button {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: wheat;
+    color: black;
+}
+
+#scissors-button {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: wheat;
+    color: black;
+}
+.player-move-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.computer-move-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#player-move {
+    padding-left: 8px;
+}
+
+#computer-move {
+    padding-left: 8px;
+}
+
+.round-plays {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7em;
+    animation: slideInUp;
+    animation-duration: 3s;
+}
